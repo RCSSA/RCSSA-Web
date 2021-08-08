@@ -20,3 +20,5 @@ Then access 127.0.0.1:4000 in your browser.
 
 # will delete later
 Thank God It's Friday :) This is just for practice
+
+# This is something new, you should see this after a `git pull` 
