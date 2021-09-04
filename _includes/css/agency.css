@@ -885,4 +885,16 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
+.about-description {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #67748E;
+    margin-right: 100px;
+}
+.about-logo {
+    width: 400px;
+}
 
