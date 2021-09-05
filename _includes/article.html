@@ -1,0 +1,33 @@
+<!-- Research Section -->
+<section id="articles">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">近期公众号热门</br>Articles</h2>
+                <h3 class="section-subheading text-muted">Checkout the interesting topics!</h3>
+            </div>
+        </div>
+        {% for article in site.data.articles %}
+        <div class="row">
+            <div class="container-sm card-item">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <!-- <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> -->
+                            <img src="img/articles/{{ article.thumbnail }}" class="img-responsive img-centered img-border-radius" alt="">
+                        <!-- </a> -->
+                    </div>
+                    <div class="col-md-8 col-sm-10">
+                        <div class="portfolio-caption">
+                            <a href="{{ article.paper }}">
+                                <h3 class="">{{ article.title }}</h3>
+                            </a>
+                            <h5 class="text-muted">{{ article.description | markdownify }}</h5>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

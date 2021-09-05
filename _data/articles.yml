@@ -1,0 +1,21 @@
+# This stores the projects info. 
+# the `description` field supports markdown syntax.
+# be careful to indent correctly. (\t)
+
+- title: RCSSA 自营 CS 秋招 Panel
+  thumbnail: 1.jpeg
+  link: https://tr0py.github.io/
+  description: |
+    这是一段描述。
+
+- title: 2021 新生见面会
+  thumbnail: 2.jpeg
+  link: 
+  description: |
+    这是一段描述。
+
+- title: 2019 Spring Festival
+  thumbnail: 3.jpeg
+  link: 
+  description: |
+    这是一段描述。
