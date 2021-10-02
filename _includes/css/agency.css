@@ -315,7 +315,7 @@ header .b-rectangle {
 header .t-container {
     position: relative;
     margin:auto;
-    height: 65vh;
+    height: 60vh;
     width: 60vw;
     background-color: rgba(255,255,255, 0);
 }
@@ -980,22 +980,26 @@ body {
 /* The sidebar menu */
 .sidenav {
   height: auto; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: auto; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  top: 200px; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: #000000BF; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 20px 60px 20px 30px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 20px;
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+  color: #FFFFFF;
   display: block;
 }
 
