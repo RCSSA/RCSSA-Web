@@ -78,6 +78,9 @@ h6 {
     color: #fff
 }
 
+.bg-orange {
+    background-color: #ce3c00;
+}
 
 .bg-darkest-gray {
     background-color: #222;
@@ -283,14 +286,39 @@ fieldset[disabled] .btn-xl.active {
 .welcome-title {
     text-align: center;
     color: #fff;
-    font-size: 
 }
 
 header.home {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/rice-rcssa-bg.jpeg');
+    background-image: url('/img/rice-rcssa-bg.jpeg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.friends{
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("{{ site.baseurl }}/img/friends-bg.png");
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.p4 {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("{{ site.baseurl }}/img/p4_header.png");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -409,6 +437,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    margin-right: 35%;
 }
 
 @media(min-width:768px) {
@@ -426,14 +455,14 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    /* header .intro-text .intro-heading {
         margin-bottom: 100px;
         #text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 20px;
         #font-weight: 700;
         #line-height: 75px;
-    }
+    } */
 }
 
 section {
@@ -444,6 +473,16 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+}
+
+section h2.p4-section-heading {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    color:#fff;
+    font-family:optima, bold, sans-serif; 
+    position: relative;
+    text-transform:none;
 }
 
 section h3.section-subheading {
@@ -745,23 +784,37 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     text-align: center;
+    text-transform:none;
+    color:#fff;
+    font-family: optima, bold, serif;
 }
 
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 180px;
+    height: 140px;
+    display: inline;
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 0;
     text-transform: none;
+    color:#fff;
+    font-family: optima, bold;
+    /* display: inline-block; */
 }
 
 .team-member p {
     margin-top: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width:100%;
+    overflow:visible;
+    text-overflow: ellipsis;
 }
 
 aside.clients img {
@@ -1047,10 +1100,178 @@ body {
     border-radius: 5px
 }
 
-img.mid-school {
-    height: 10.74797058105469px;
-    width: 10.31853485107422px;
-    left: 658px;
-    top: 1611px;
-    border-radius: 0px;
-  }
+.rounded-circle {
+    border: black;
+    border-style: solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 400px;
+}
+
+.follow-us {
+    position: relative;
+    color: black;
+}
+
+.follow-us a {
+    position: relative;
+    color: black;
+}
+
+.follow-us .card-item {
+    background-color: #fff;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.follow-us h3,
+.follow-us h4 {
+    margin: 0 0;
+    font-weight: 400;
+}
+
+.description {
+    display: inline-block;
+}
+
+.follow-us i {
+    height: 100px;
+    width: 100px;
+}
+
+#contact-us {
+    position: relative;
+    background: url("img/page4/campus.jpg") no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 87vh;
+    height: auto;
+}
+
+#contact-us .card-item {
+    width: 580px;
+height: 309px;
+    background-color: rgba(255,255,255,.8);
+    margin: auto;
+}
+
+#message {
+    width: 504px;
+    height: 153px;
+    border: 1px solid #D2D6DA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#name{
+    float: left;
+    width: 225px;
+    margin-left:25px;
+}
+
+#email {
+    float: right;
+    width: 225px;
+    margin-right: 25px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%); 
+}
+
+.contact {
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+#contact-us .btn-xl {
+    font-size: 14px;
+    background: #CE3C00;
+    padding: 10px;
+    margin-top: 1%;
+/* Button/Default */
+}
+
+
+.about-description {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #67748E;
+    margin-right: 100px;
+}
+
+.about-logo {
+    width: 400px;
+}
+
+.friends-text {
+    color: white;
+    font-size: medium;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.friends-vl {
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 1px;
+}
+
+.friends-color {
+    color: #392954;
+}
+
+.friends-li {
+    padding-top: 2%;
+
+}
+.friends-li .ul {
+    background-color: lightskyblue;
+}
+
+.friends-li .a {
+    color: white;
+}
+.friends-li .a  :hover{
+    color: lightskyblue;
+}
+
+.friends-link {
+    font-size: medium;
+    color: white;
+}
+.friends-link:hover{
+    color: lightskyblue;
+}
+.friends-link:focus{
+    color: lightskyblue;
+}
+.friends-link:active{
+    color: lightskyblue;
+}
+
+.friends-card-img {
+    border-radius: 10px;
+}

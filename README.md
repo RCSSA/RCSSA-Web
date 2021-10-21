@@ -1,16 +1,30 @@
 # RCSSA Website
 
-# How to Run Locally
+This is the source tree of RCSSA official website.
+
+
+## How to Run Locally
+
+### Requirements
+
+`Jekyll` is required for compiling the web.
+
+You can download and install Jekyll following the instructions here: [Jekyll Official Website](https://jekyllrb.com/docs/installation/).
+
+
+### Download and Server
 
 ```shell
 git clone https://github.com/RCSSA/RCSSA-Web.git
+cd RCSSA-Web
 jekyll serve
 ```
 
 Then access 127.0.0.1:4000 in your browser.
 
-![image](https://user-images.githubusercontent.com/37894237/127791787-44100d85-78b5-4ae5-bd54-c6b6c72c821e.png)
+![image](./img/preview.png)
 
-# Demo
+## Demo
 
-[RCSSA Web(test)](https://rcssa.github.io/RCSSA-Web/)
+[RCSSA Website](http://rcssa.rice.edu/)
+

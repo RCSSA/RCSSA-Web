@@ -1,0 +1,51 @@
+<!-- contact us -->
+<section id="contact-us" style="position: relative">
+  <h1 class="center contact">Contact Us</h1>
+  <div class="card-item container-sm">
+    <div>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div calss="row">
+            <div class="col-md-6">
+              <div class="control-group form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name *"
+                  id="name"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="control-group form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email *"
+                  id="email"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="control-group form-group">
+              <textarea
+                class="form-control"
+                placeholder="Your Message *"
+                id="message"
+              ></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-lg-12 text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-xl">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

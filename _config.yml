@@ -1,57 +1,56 @@
 url: https://tr0py.github.io
-baseurl: /RCSSA-Web
+baseurl:
 
 # Site settings
 title: RCSSA
 email: rcssa@rice.edu
 description: "Rice Chinese Students & Scholars Association"
 
-
 # Team names, titles and social links
 people:
-- name: Yifei Li
-  pic: 1
-  position: Undergraduate President
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  - name: Yifei Li
+    pic: 1
+    position: Undergraduate President
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: stack-overflow
+        url: #
 
-- name: Shiwei Li
-  pic: 2
-  position: Graduate President
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  - name: Shiwei Li
+    pic: 2
+    position: Graduate President
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
 
-- name: ???
-  pic: 3
-  position: Trouble Maker
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: ???
+    pic: 3
+    position: Trouble Maker
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: google-plus
+        url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/rcssa1
   - title: facebook
-    url:
+    url: http://www.facebook.com/groups/rcssc/
   - title: stack-overflow
-    url: 
-  - title: bitbucket 
-    url: 
+    url:
+  - title: bitbucket
+    url:
   - title: github
     url: http://github.com/jekyll
 
@@ -63,3 +62,14 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+follow:
+  - icon: weixin
+    title: 微信公众号
+    url: RCSSAweixin
+  - icon: facebook-official
+    title: Facebook
+    url: http://www.facebook.com/groups/rcssc/
+  - icon: envelope
+    title: Mailing List 注册（请用Rice邮箱）
+    url: https://mailman.rice.edu/mailman/listinfo/rcsc
