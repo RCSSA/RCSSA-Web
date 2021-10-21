@@ -69,6 +69,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-dark-red {
+    background-color: #71002B;
+}
+
 .bg-dark-blue {
     background-color: #{{ site.data.template.color.secondary }};
     color: #fff
@@ -284,7 +288,7 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
-header {
+header.home {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -366,6 +370,30 @@ header .s-rectangle .title {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 70px;
+}
+
+header .t-container {
+    position: relative;
+    margin:auto;
+    height: 60vh;
+    width: 60vw;
+    background-color: rgba(255,255,255, 0);
+}
+
+header .t-container .p2 {
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    font-family: Optima;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 97px;
+    letter-spacing: 3px;
+    color: #FFFF;
 }
 
 header .b-rectangle .p1 {
@@ -858,6 +886,7 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+
 footer {
     padding: 25px 0;
     text-align: center;
@@ -1003,6 +1032,54 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+/* The sidebar menu */
+.sidenav {
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Style page content */
+.box {
+    border:2px solid #000;
+    border-radius: 40px 40px 40px 40px;
+    height: 100%;
 .card-item {
     margin-bottom: 2vh;
     margin-top: 2vh;
