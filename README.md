@@ -50,4 +50,7 @@ merch.yml
 To add/remove social network links shown on the footer and about page, go to _config.yml and update the links accordingly. Again, make sure you are following the same format.
 
 
+### I added something new!
+
+
 
