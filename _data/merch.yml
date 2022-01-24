@@ -4,7 +4,7 @@ img_dir: "/img/merch/"
 # product id must be unique and have at least 3 characters 
 # in order to make the gallery work properly
 products:
-  - name: "鹤"
+  - name: "鹤12312"
     id: he0
     sizes: "S / M / L / XL / XXL"
     text: “自叹不如华表鹤，故乡常在白云中。”
@@ -15,7 +15,7 @@ products:
       - he_1.jpg
       - he_2.jpg
 
-  - name: "和"
+  - name: "和313"
     id: yu0
     front: "Hoodie 02 Front.png"
     back: "Hoodie 02 Back.png"
