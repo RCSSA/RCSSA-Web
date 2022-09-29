@@ -3,7 +3,6 @@ fetch(url)
 .then(res => res.json())
 .then(data => {
     $.each(data, function (index,item) {
-        console.log(item.Title);
         $("#article-area").append(
             "<div class='row'>"+
             "<div class='container-sm card-item'>"+
