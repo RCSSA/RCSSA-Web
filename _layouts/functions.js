@@ -1,5 +1,4 @@
 {% include shared/bootstrap/bootstrap.js %}
-
 {% include shared/nav_bar/nav_bar.js %}
 
 {% include about_page/contact-us/contact-us.js %}
@@ -10,3 +9,5 @@
 {% include merch_page/products/products.js %}
 
 {% include new_students/faq/faq.js %}
+
+{% include home_page/articles/articles.js %}
