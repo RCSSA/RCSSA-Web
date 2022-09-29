@@ -13,8 +13,8 @@ function onFormSubmit(e) {
     // multi line string!
     subject: `RCSSA: 商品预订成功`,
     name: "RCSSA",
-    body: 
-    `客官你好！
+    body:
+        `客官你好！
      以下是您所预订商品的信息：
       商品： ${name}
       尺码: ${size}
@@ -38,26 +38,53 @@ function quantHandler(e) {
   let rowIndex = {'均码': 2, 'S': 3, 'M':4, 'L': 5, 'XL': 6, 'XXL': 7};
   let colIndex = {'鹤 - hoodie': 1, '和 - sweatshirt': 2, '内卷 - bag': 3, '摸鱼 - bag': 4};
   let curStockNum = 0;
-  let stockData = getAvailMerchValues();
+
+  var ss= SpreadsheetApp.openById('1GMZFBGNLYe9sRhrvoC2Qn2EZbhxhlmTZwVtf405y0KY');
+  var stockSheet = ss.getSheetByName('Stock');
+  var stockData = stockSheet.getDataRange().getValues();
   if (name == '鹤 - hoodie'){
     targetRange = sizeMap[name] + sizeMap[size_hoodie];
-    curStockNum = stockData[rowIndex[name]][colIndex[size_hoodie]];
+
+    curStockNum = parseInt(stockData[rowIndex[size_hoodie]][colIndex[name]]);
   }
   else if (name == '和 - sweatshirt'){
     targetRange = sizeMap[name] + sizeMap[size_shirt];
-    curStockNum = stockData[rowIndex[name]][colIndex[size_shirt]];
+    curStockNum = parseInt(stockData[rowIndex[size_shirt]][colIndex[name]]);
   }
   else {
     targetRange = sizeMap[name]
-    curStockNum = stockData[rowIndex[name]][colIndex['均码']];
+    curStockNum = parseInt(stockData[rowIndex['均码']][colIndex[name]]);
   }
   if (quant !== 'Contact us') {
     numOrdered = parseInt(quant);
+    if (curStockNum - numOrdered >= 0){
+      //Logger.log(curStockNum);
+      //Logger.log(numOrdered);
+      let res = curStockNum - numOrdered;
+      //Logger.log(res);
+      updateSheetWithNewStock(targetRange, res);
+    }
+    else{
+      Logger.log(values["Email Address"][0]);
+      //let receiver = values["netid"] + "@rice.edu";
+      let receiver = values["Email Address"][0];
+      MailApp.sendEmail({
+        to: receiver,
+        // multi line string!
+        subject: `RCSSA: 商品预订失败`,
+        name: "RCSSA",
+        body:
+            `客官你好！
+        不好意思，没货了！
+
+        RCSSA全体成员
+        `
+      });
+    }
   }
 
-  
 
-  changeSheet(targetRange, numOrdered);
+
 
 }
 
@@ -71,7 +98,7 @@ function getAvailMerchValues() {
 
 
 
-function changeSheet(targetRange, val){
+function updateSheetWithNewStock(targetRange, val){
   let ss= SpreadsheetApp.openById('1GMZFBGNLYe9sRhrvoC2Qn2EZbhxhlmTZwVtf405y0KY');
   let stockSheet = ss.getSheetByName('Stock');
   let targetCell = stockSheet.getRange(targetRange);
