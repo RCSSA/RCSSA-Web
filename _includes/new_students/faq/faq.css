@@ -1,0 +1,117 @@
+.faq-section {
+    background-color: #71002B;
+}
+.faq-section .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.faq-section .down-arrow{
+    content: url('../img/new_students/down_arrow.png');
+}
+.faq-section .right-arrow{
+    content: url('../img/new_students/down_arrow.png');
+    transform: rotate(270deg);
+}
+.faq-section h2.faq {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 97px;
+    letter-spacing: 0.1em;
+
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+.faq-section img.down-arrow，img.right-arrow {
+    margin-right: 10px;
+    width: 24px;
+    height: 14px;
+}
+
+.faq-section .content-text {
+    margin-left: 10%;
+    font-size: 18px
+    padding-right: 5%;
+    font-family: Optima;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+}
+@media(max-width:767px) {
+    .faq-section h2.upon {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 73px;
+        text-align: center;
+        /* letter-spacing: 0.1em; */
+        color: #ffffff;
+        margin-top: -3%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-right: 10%;
+    }
+    .faq-section .faq_container {
+        padding-left: 5%;
+        margin-top: -5%;
+    }
+    .faq-section .question {
+        margin-left: 2%;
+        padding-right: 5%;
+    }
+    .faq-section .collapsible {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        display: inline;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+@media(min-width:768px) {
+    .faq-section h2.upon {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 73px;
+        text-align: right;
+        /* letter-spacing: 0.1em; */
+        color: #ffffff;
+        margin-top: -3%;
+        margin-left: 40%;
+        margin-bottom: 5%;
+        margin-right: 29%;
+    }
+    .faq-section .faq_container {
+        padding-left: 25%;
+        margin-top: -5%;
+    }
+    .faq-section .question {
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+    .faq-section .collapsible {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        display: inline;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+    }
+}

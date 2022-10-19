@@ -1,0 +1,20 @@
+.friends_header-section{
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("{{ site.baseurl }}/img/friends-bg.png");
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.friends_header-section p{
+    padding-top: 20vh; 
+    padding-bottom: 20vh; 
+    margin-left: 25vw; 
+    margin-right: auto; 
+    font-size: xx-large; 
+    font-family: Optima;
+}

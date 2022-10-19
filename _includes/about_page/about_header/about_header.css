@@ -1,0 +1,38 @@
+.about-section {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("{{ site.baseurl }}/img/p4_header.png");
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.about-section .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.about-section .intro-text .intro-heading {
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0;
+    position: relative;
+    top: 1vw;
+    right: 12vw;
+    letter-spacing: 0.25vw;
+    font-family: optima;
+}
+
+@media(min-width:768px) {
+    .about-section .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        margin-bottom: 25px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+}

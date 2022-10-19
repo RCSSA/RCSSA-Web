@@ -1,0 +1,65 @@
+.about-team {
+    background-color: #ce3c00;
+}
+.about-team .container{
+    margin-top: 150px; 
+    margin-bottom: 150px;
+    padding-right: 10%;
+    position: relative;
+}
+.about-team h2.p4-section-heading {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    color:#fff;
+    font-weight: 700;
+    font-family:optima, bold, sans-serif; 
+    position: relative;
+    text-transform:none;
+}
+
+.about-team .team-member {
+    margin-bottom: 35px;
+    text-align: center;
+    text-transform:none;
+    color:#fff;
+    font-family: optima, bold, serif;
+}
+
+.about-team .team-member img {
+    margin: 0 auto;
+    border: 3px solid #fff;
+    width: 400px;
+    /* height: 300px; */
+    display: inline;
+}
+
+.about-team .team-member h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    text-transform: none;
+    color:#fff;
+    font-family: optima, bold;
+    font-weight: 700;
+    /* display: inline-block; */
+}
+
+.about-team .team-member p {
+    margin-top: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width:100%;
+    overflow:visible;
+    text-overflow: ellipsis;
+}
+.about-team .left-arrow {
+    
+    position: absolute;
+    top: 50%;
+    right: -4%;
+    background-color: #ce3c00;
+    border-style: none;
+}
+.about-team .arrow-logo {
+    content: url('/img/team/arrow.png');
+}

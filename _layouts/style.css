@@ -1,3 +1,30 @@
-{% include css/bootstrap.min.css %}
-{% include css/rcssa.css %}
-{{ content }}
+
+
+{% include home_page/articles/articles.css %}
+{% include home_page/welcome/welcome.css %}
+{% include home_page/home_header/home_header.css %}
+
+{% include new_students/new_students_header/new_students_header.css %}
+{% include new_students/useful_links/useful_links.css %}
+{% include new_students/arrival/arrival.css %}
+{% include new_students/faq/faq.css %}
+{% include new_students/handbook/handbook.css %}
+
+{% include friends_page/friends_header/friends_header.css %}
+{% include friends_page/friends_international/friends_international.css %}
+{% include friends_page/friends_alumni/friends_alumni.css %}
+{% include friends_page/friends_clubs/friends_clubs.css %}
+
+{% include merch_page/merch_header/merch_header.css %}
+{% include merch_page/products/products.css %}
+
+{% include shared/bootstrap/bootstrap.min.css %}
+{% include shared/footer/footer.css %}
+{% include shared/nav_bar/nav_bar.css %}
+
+{% include about_page/about_header/about_header.css %}
+{% include about_page/short-intro/short-intro.css %}
+{% include about_page/team/team.css %}
+{% include about_page/tech_team/tech_team.css %}
+{% include about_page/follow-us/follow-us.css %}
+{% include about_page/contact-us/contact-us.css %}

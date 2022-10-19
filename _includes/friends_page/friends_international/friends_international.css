@@ -1,0 +1,69 @@
+.association-section{
+    background-color: #392954;
+}
+.association-section .title{
+    padding-top:15vh; 
+    padding-bottom: 10vh; 
+    margin: auto;
+}
+.association-section .row{
+    margin: auto;
+}
+.association-section h1{
+    color: white;    
+    font-family: Optima, Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 160%;
+    text-align:text-justify;
+    text-justify: inter-ideograph;
+}
+.association-section .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15vh; 
+    margin: auto;
+}
+.association-section .container {
+    margin-left: 118px;
+}
+.association-section .friends-vl {
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 1px;
+}
+.association-section .friends-li {
+    padding-top: 2%;
+    color: white; 
+    margin-left: -25px; 
+    line-height: 270%;
+
+}
+.association-section .friends-li .ul {
+    background-color: lightskyblue;
+}
+.association-section .friends-li .a {
+    color: white;
+}
+.association-section .friends-li .a  :hover{
+    color: lightskyblue;
+}
+.association-section .friends-link {
+    font-size: medium;
+    color: white;
+}
+.association-section .friends-link:hover{
+    color: lightskyblue;
+}
+.association-section .friends-link:focus{
+    color: lightskyblue;
+}
+.association-section .friends-link:active{
+    color: lightskyblue;
+}
+.association-section .rice-owl{
+    content: url('../img/rice-owl.png');
+    margin: auto; 
+    height: 300px; 
+    display: flex;
+}

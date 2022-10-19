@@ -1,0 +1,43 @@
+.clubs-section .section1{
+    padding-top:15vh; 
+    padding-bottom: 10vh; 
+    margin: auto;
+}
+.clubs-section .title{
+    font-weight:700;
+    letter-spacing: 1px;
+    color: #392954;
+}
+.clubs-section .friends-card1 {
+    border-radius: 10px;
+    content: url('../img/friends/friends-1.png');
+    width: 100%;
+}
+.clubs-section .friends-card2 {
+    border-radius: 10px;
+    content: url('../img/friends/friends-2.png');
+    width: 100%;
+}
+.clubs-section .friends-card3 {
+    border-radius: 10px;
+    content: url('../img/friends/friends-3.png');
+    width: 100%;
+}
+
+.clubs-section .section2{
+    padding-bottom: 15vh; 
+    margin: auto; 
+    line-height: 250%;
+}
+.clubs-section .col-sm-3{
+    color: #392954;
+    margin-left: 10px; 
+    margin-right: 10px；
+}
+.clubs-section p{
+    line-height: 200%;
+}
+.clubs-section .section2 h3{
+    font-weight: 550;
+    word-spacing: 10px;
+}

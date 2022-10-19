@@ -1,0 +1,62 @@
+.about-tech_team {
+    background-color: #ce3c00;
+    display: none
+}
+.about-tech_team .container{
+    padding-left: 10%; 
+    position: relative
+}
+.about-tech_team h2.p4-section-heading {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    color:#fff;
+    font-family:optima, bold, sans-serif; 
+    position: relative;
+    text-transform:none;
+}
+
+.about-tech_team .right-arrow {
+    position: absolute;
+    top: 50%;
+    left: -4%;
+    background-color: #ce3c00;
+    border-style: none;
+}
+.about-tech_team .arrow-logo {
+    content: url('/img/team/back-arrow.png');
+}
+.about-tech_team .team-member {
+    margin-bottom: 35px;
+    text-align: center;
+    text-transform:none;
+    color:#fff;
+    font-family: optima, bold, serif;
+}
+
+.about-tech_team .team-member img {
+    margin: 0 auto;
+    border: 3px solid #fff;
+    width: 400px;
+    /* height: 300px; */
+    display: inline;
+}
+
+.about-tech_team .team-member h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    text-transform: none;
+    color:#fff;
+    font-family: optima, bold;
+    font-weight: 700;
+    /* display: inline-block; */
+}
+
+.about-tech_team .team-member p {
+    margin-top: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width:100%;
+    overflow:visible;
+    text-overflow: ellipsis;
+}

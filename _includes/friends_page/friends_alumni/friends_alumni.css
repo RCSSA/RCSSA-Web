@@ -1,0 +1,58 @@
+.alumni-section .section1{
+    background-color: #392954;
+}
+.alumni-section .section1 .container{
+    padding-top:10vh; 
+    padding-bottom: 10vh; 
+    margin: auto;
+}
+.alumni-section .section2{
+    padding-bottom: 10vh; 
+    padding-top: 10vh; 
+    margin: auto;
+}
+.alumni-section .section2-1{
+    font-size: medium; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+.alumni-section .section2-2{
+    font-size: medium; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+.alumni-section .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(200, 200, 200, 100);
+}
+.alumni-section .rice-shield {
+    content: url('../img/rice-shield.png');
+    margin: auto; 
+    display: block; 
+    padding-bottom: 20px;
+}
+.alumni-section .friends-text {
+    color: white;
+    font-size: medium;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.alumni-section .friends-color {
+    color: #392954;
+}
+.alumni-section .friends-vl {
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 1px;
+}
+.alumni-section .flex-center-items {
+    justify-items: center; 
+    justify-content: center; 
+    justify-self: center; 
+    display: flex;
+}

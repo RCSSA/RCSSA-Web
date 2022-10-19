@@ -1,0 +1,79 @@
+.useful_links-section {
+    background-color: #71002B;
+}
+.useful_links-section .container{
+    position: relative;
+}
+.useful_links-section .row {
+    margin: auto;
+}
+.useful_links-section h2.link {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 73px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+.useful_links-section .airplane {
+    content: url('../img/new_students/airplane-icon.png');
+}
+.useful_links-section .school {
+    content: url('../img/new_students/Icon ionic-md-school.png');
+}
+.useful_links-section .faq-form {
+    content: url('../img/new_students/Icon map-school.png');
+}
+.useful_links-section .gym {
+    content: url('../img/new_students/gym-icon.png');
+}
+
+.useful_links-section .text {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #ffffff;
+}
+.useful_links-section .linkList{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+@media(max-width:767px) {
+    .useful_links-section .container .title {
+        position: relative;
+        left: 5%;
+        display: table;
+    }
+    .useful_links-section .info {
+        width: 100%;
+        height: 65px;
+        padding-left: 10%;
+        margin-bottom: 50px;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+@media(min-width:768px) {
+    .useful_links-section .container .title {
+        position: absolute;
+        left: 70%;
+        /* right: 10%; */
+        top: 43%;
+        /* bottom: 41.86%; */
+        display: table;
+    }
+    .useful_links-section .info {
+        width: 302.3px;
+        height: 65px;
+        margin-left: 24%;
+        margin-bottom: 50px;
+        display: table;
+        table-layout: fixed;
+    }
+}

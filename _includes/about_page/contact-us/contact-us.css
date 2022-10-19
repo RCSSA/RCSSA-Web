@@ -1,0 +1,105 @@
+.contact-us{
+    background: url("img/page4/campus.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative
+}
+.contact-us .container{
+    margin-top: 100px;
+}
+.contact-us .contact {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%); 
+    font-family: Optima;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    font-size: 5vw;
+    margin-bottom: 7.8px;
+}
+.contact-us .card-item {
+    width: 54.4vw;
+    height: 29vw;
+    background-color: rgba(255,255,255,.8);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 4.6vw;
+    margin-bottom: 120px;
+}
+
+
+.contact-us .form-group {
+    margin-bottom: 25px;
+}
+.contact-us .form-group input,
+.ccontactForm .form-group textarea {
+    padding: 20px;
+}
+
+.contact-us .contactForm .form-group input.form-control {
+    height: auto;
+}
+
+.contact-us .contactForm .form-group textarea.form-control {
+    height: 236px;
+}
+.contact-us .btn:focus,
+.contact-us .btn:active,
+.contact-us .btn.active,
+.contact-us .btn:active:focus {
+    outline: 0;
+}
+.contact-us .btn-xl {
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: #CE3C00;
+    padding: 0.781vw;
+    margin-top: 1%;
+/* Button/Default */
+}
+
+.contact-us .form-section {
+    margin: auto; 
+    width: 47.2vw
+}
+.contact-us #message {
+    width: 47.2vw;
+    height: 14.45vw;
+    border: 1px solid #D2D6DA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 3%;
+    font-size: 2vw;
+}
+
+.contact-us #name{
+    float: left;
+    width: 22.5vw;
+    height: 3.4vw;
+    /* margin-left:35px;
+    margin-top: 10px; */
+    border: 1px solid #D2D6DA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+
+.contact-us #email {
+    float: right;
+    width: 22.5vw;
+    height: 3.4vw;
+    /* margin-right: 35px;
+    margin-top: 10px; */
+    border: 1px solid #D2D6DA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 2vw;
+}

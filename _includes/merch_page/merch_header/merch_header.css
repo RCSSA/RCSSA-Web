@@ -1,0 +1,24 @@
+header.merch {
+    text-align: right;
+    background: url("{{ site.baseurl }}/img/merch/header_line.png"), #b8bec7;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+.merch .merch_title {
+    padding-top: 15vw;
+    padding-bottom: 3.75vw;
+    background-color: white;
+
+}
+
+.merch .title_text {
+    font-size: 75px;
+    color:#656565;
+    margin-right: 5%;
+    font-weight: bold;
+    font: optima;
+}
+   

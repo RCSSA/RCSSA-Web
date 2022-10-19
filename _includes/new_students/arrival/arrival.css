@@ -1,0 +1,66 @@
+.arrival-section {
+    background-image: url("{{ site.baseurl }}/img/wiess.png");
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrival-section .circle {
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    font-family: Optima;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+.arrival-section .arrival-margin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.arrival-section .circle a {
+    color: #fff;
+}
+@media(max-width:767px) {
+    .arrival-section .u_container {
+        padding-left: 1.5vw;
+    }
+    .arrival-section h2.upon {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 73px;
+        text-align: center;
+        /* letter-spacing: 0.1em; */
+        color: #ffffff;
+        margin-top: -3%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-right: 10%;
+    }
+}
+
+@media(min-width:768px) {
+    .arrival-section .u_container {
+        padding-left: 49vh;
+    }
+    .arrival-section h2.upon {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 73px;
+        text-align: right;
+        /* letter-spacing: 0.1em; */
+        color: #ffffff;
+        margin-top: -3%;
+        margin-left: 40%;
+        margin-bottom: 5%;
+        margin-right: 29%;
+    }
+}

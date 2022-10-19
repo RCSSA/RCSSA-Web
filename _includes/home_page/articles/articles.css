@@ -1,0 +1,45 @@
+section .articles-section{
+    padding: 100px 0;
+}
+.articles-section .container{
+    margin-bottom: 100px;
+}
+.articles-section h2.section-heading {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Optima, Montserrat,Helvetica,Arial,sans-serif'; 
+    color: #0a509e;
+}
+.articles-section .text-muted {
+    color: #{{ site.data.template.color.muted }};
+}
+.articles-section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: {{ site.data.template.font.secondary }};
+}
+.articles-section .title{
+    font-weight: 600;
+}
+.articles-section .row {
+    margin: auto;
+}
+.articles-section .card-item {
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: rgba(48,56,100, 0.1);
+    padding: 12px;
+}
+.articles-section .img-border-radius {
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 5px
+}

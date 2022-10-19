@@ -1,0 +1,24 @@
+<footer>
+  <div
+    class="container"
+    style="background-color: {{page.color}}; width: 100%; height: 100px; line-height: 50px; position: relative;"
+  >
+    <div class="footer-mid">
+      <span class="footer-text"
+        >{{ 'now' | date: "%Y" }} {{site.title}} @ Rice University</span
+      >
+      <ul class="list-inline social-buttons">
+        {% for network in site.social %}
+        <li>
+          <a href="{{network.url}}">
+            <i class="fa fa-{{ network.title }}"></i>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <a href="/about#contact-us">
+        <span class="footer-text footer-contact-us">Contact Us</span>
+      </a>
+    </div>
+  </div>
+</footer>

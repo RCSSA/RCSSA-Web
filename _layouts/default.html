@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+  {% include shared/head/head.html %}
 
   <body id="page-top" class="index">
-    {% include nav_bar.html %} 
+    {% include shared/nav_bar/nav_bar.html %} 
     {% for section in page.sections %} 
     {% include {{page.sub_dir}}/{{section.name}} %} 
     {% endfor %} 
     {{content}} 
-    {% include footer.html %} 
-    {% include js.html %}
+    {% include shared/footer/footer.html %} 
+    {% include shared/importer.html %}
   </body>
 </html>

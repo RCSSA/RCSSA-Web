@@ -1,0 +1,23 @@
+.about-intro .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-intro .description1,.description2{
+    /* width: 80%; */
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    color: #67748E;
+}
+.about-intro .description2 {
+    margin-top: 3vw
+}
+.about-intro .about-logo {
+    content: url('../img/logos/rcssa.png');
+    max-width: 30vw;
+    position: relative;
+    top: 1vw;
+    height:auto;
+}
