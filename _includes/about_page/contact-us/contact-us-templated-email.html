@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      Hi there!<br><br>
+      Below are today's <?= data.length ?> unread messages sent via RCSSA website. Please mark status to 1 
+      in the <a href="https://docs.google.com/spreadsheets/d/1mbSMm8YKz7PdujLwjVsyNY8hWCtbx0p9JRhC1fkpdLg">Contact Us</a> sheet 
+      to avoid repeating email notifications.<br><br><br>
+    </div>
+    <div>
+      <ul>
+        <? for(var i = 0; i < data.length; i++) { ?>
+          <li><hr class="solid" /><br></li>
+          <li>
+            Name: <?= data[i].name ?><br>
+            Email: <?= data[i].email ?><br>
+            Message: <br><br><?= data[i].body ?><br><br>
+          </li>
+        <? } ?>
+      </ul>
+    </div>
+  </body>
+</html>
