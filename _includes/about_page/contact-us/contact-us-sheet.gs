@@ -71,6 +71,8 @@ function getEmailText(messages) {
 Here are today's ${messages.length} unread messages sent via RCSSA website. Please mark the 'status' column to 1 in 'Contact Us' sheet below to avoid duplicate email notifications. 
 https://docs.google.com/spreadsheets/d/1mbSMm8YKz7PdujLwjVsyNY8hWCtbx0p9JRhC1fkpdLg
 
+To subscribe or unsubscribe, add/delete your email address from the "Subscribers" sheet https://docs.google.com/spreadsheets/d/1mbSMm8YKz7PdujLwjVsyNY8hWCtbx0p9JRhC1fkpdLg/edit#gid=262818157
+
 --------------------------------------------------
 
 `;
@@ -104,7 +106,9 @@ function getSubscribers(){
   let subscribers = [];
   // read each row into json object for easier processing
   table.forEach((row) => {
-    subscribers.push(row[0]);
+    if (row[0] != ""){
+      subscribers.push(row[0]);
+    }
   });
   return subscribers;
 }
