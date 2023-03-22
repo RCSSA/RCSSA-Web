@@ -10,3 +10,5 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+
+gem "webrick", "~> 1.8"
