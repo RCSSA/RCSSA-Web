@@ -967,7 +967,12 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
-
+.team-member-rounded-container {
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+}
 .team-member {
     margin-bottom: 35px;
     text-align: center;

@@ -1,10 +1,20 @@
 <script>
   function myFunction() {
     document.getElementById("team").style.display = "none";
-    document.getElementById("web-creator").style.display = "block";
+    document.getElementById("members_IT").style.display = "block";
   }
   function myFunction_1() {
     document.getElementById("team").style.display = "block";
-    document.getElementById("web-creator").style.display = "none";
+    document.getElementById("members_IT").style.display = "none";
+  }
+  function myFunction_2() {
+      // To Internal Affairs
+      document.getElementById("members_IT").style.display = "none";
+      document.getElementById("members_InternalAffairs").style.display = "block";
+  }
+  function myFunction_3() {
+      // from internal affairs to IT
+      document.getElementById("members_InternalAffairs").style.display = "none";
+      document.getElementById("members_IT").style.display = "block";
   }
 </script>
