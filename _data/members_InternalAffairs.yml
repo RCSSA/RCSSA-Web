@@ -1,0 +1,13 @@
+# Information about the RCSSA board
+# Please enter information by row
+
+# 内务
+- row:
+    - info:
+        name: 王若愚
+        title: Vice President
+        picture: "yuki.jpeg"
+    - info:
+        name: 程一容
+        title: Vice President
+        picture: "cyr.jpeg"

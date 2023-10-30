@@ -1,0 +1,103 @@
+# information about website creators
+# 2022-2023 crew
+- row:
+    - info:
+        name: Li Yueqian
+        title: Web Designer & Initiator
+        picture: "lyq.jpg"
+    - info:
+        name: Hu Yaning
+        title: Web Designer & Initiator
+        picture: "hyn.JPG"
+- row:
+    - info:
+        name: Ge Huang
+        title: Team Lead
+        picture: "gh.jpg"
+
+    - info:
+        name: Yao Jiawen
+        title: Team Lead
+        picture: "yjw.jpeg"
+- row:
+    - info:
+        name: Liu Yitong
+        title: UI Designer
+        picture: "lyt.jpeg"
+    - info:
+        name: Zeng Weijian
+        title: Web Developer
+        picture: "zwj.jpg"
+- row:
+    - info:
+        name: Niu Yihan
+        title: Airport Pickup Platform Developer
+        picture: "nyh.png"
+    - info:
+        name: Sun Haiming
+        title: Airport Pickup Platform Developer
+        picture: "shm.jpeg"
+- row:
+    - info:
+        name: Li Xuanchen
+        title: Frontend Developer
+        picture: "lxc.jpeg"
+    - info:
+        name: Wang Yankai
+        title: Airport Pickup Platform Backend Developer
+        picture: "none.png"
+- row:
+    - info:
+        name: Yuan Qingxin
+        title: Airport Pickup Platform Developer
+        picture: "none.png"
+
+    - info:
+        name: Huang Yuening
+        title: Airport Pickup Platform Frontend Developer
+        picture: "none.png"
+# previous
+- row:
+    - info:
+        name: Zhao Ziyi
+        title: Tech Lead
+        picture: "zzy.png"
+
+    - info:
+        name: Zhou Yufeng
+        title: Backend Developer
+        picture: "none.png"
+
+- row:
+    - info:
+        name: Xu Ningzhi
+        title: Frontend Developer
+        picture: "xnz.png"
+    - info:
+        name: Wang Xincheng
+        title: Frontend Developer
+        picture: "none.png"
+
+- row:
+    - info:
+        name: Chencui Yuanxiu
+        title: UI Designer
+        picture: "none.png"
+    - info:
+        name: Zhang Ruoxin
+        title: Frontend Developer
+        picture: "zrx.jpg"
+- row:
+    - info:
+        name: Weijian Zeng
+        title: Frontend Designer
+        picture: "zwj1.jpg"
+    - info:
+        name: Zeng Weijian
+        title: Backend Developer
+        picture: "zwj2.jpg"
+- row:
+    - info:
+        name: He Jiaqi
+        title: Web Developer
+        picture: "none.png"

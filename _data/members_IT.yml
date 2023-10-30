@@ -1,0 +1,26 @@
+# information about IT members
+# 2023 fall crew
+- row:
+    - info:
+        name: Ge Huang
+        title: Team Lead
+        picture: "gh.jpg"
+
+    - info:
+        name: Yao Jiawen
+        title: Team Lead
+        picture: "yjw.jpeg"
+- row:
+    - info:
+        name: Li Xuanchen
+        title: Frontend Developer
+        picture: "lxc.jpeg"
+    - info:
+        name: Sun Haiming
+        title: Airport Pickup Platform Developer
+        picture: "shm.jpeg"
+- row:
+    - info:
+        name: Jin Yanlin
+        title: Web Developer
+        picture: "jyl.png"
