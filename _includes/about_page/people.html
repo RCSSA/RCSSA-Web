@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<div class="navbar_people">
+  <button onclick="showContent('team')">RCSSA Board</button>
+  <button onclick="showContent('members_IT')">IT Members</button>
+  <button onclick="showContent('members_InternalAffairs')">Internal Affairs</button>
+</div>
+
+<!-- Content Sections -->
+<section id="team" class="bg-orange" style="display: block;">
+  <div class="container" style="position: relative">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="p4-section-heading">RCSSA Board</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for row in site.data.board %}
+      {% for col in row.row %}
+      <div class="col-md-6">
+        <div class="team-member" style="display: flex; align-items: flex-start;"> <!-- Added display flex and align-items -->
+          <div class="image-container" style="width: 100px; height: 100px; overflow: hidden; display: inline-block; margin-right: 10px;">
+            <img
+                    class="img-responsive"
+                    src="/img/team/{{col.info.picture}}"
+                    alt="{{col.info.name}}"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+            />
+          </div>
+          <div class="text-container" style="display: inline-block; text-align: left;"> <!-- Added text-align left for caption -->
+            <h4>{{col.info.name}}</h4>
+            <p class="text-white">{{col.info.title}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="members_IT" class="bg-orange" style="display: none;">
+  <div class="container" style="position: relative">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="p4-section-heading">IT Members</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for row in site.data.members_IT %}
+      {% for col in row.row %}
+      <div class="col-md-4">
+        <div class="team-member" style="display: flex; align-items: center;">
+          <div class="image-container" style="width: 100px; height: 100px; overflow: hidden; display: inline-block; margin-right: 10px;">
+            <img
+                    class="img-responsive"
+                    src="/img/members/IT/{{col.info.picture}}"
+                    alt="{{col.info.name}}"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+            />
+          </div>
+          <div class="text-container" style="display: inline-block; text-align: left; vertical-align: top;"> <!-- Added vertical-align: top; -->
+            <h4>{{col.info.name}}</h4>
+            <p class="text-white">{{col.info.title}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="members_InternalAffairs" class="bg-orange" style="display: none;">
+  <div class="container" style="position: relative">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="p4-section-heading">Internal Affairs Members</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for row in site.data.members_InternalAffairs %}
+      {% for col in row.row %}
+      <div class="col-md-4">
+        <div class="team-member" style="display: flex; align-items: center;">
+          <div class="image-container" style="width: 100px; height: 100px; overflow: hidden; display: inline-block; margin-right: 10px;">
+            <img
+                    class="img-responsive"
+                    src="/img/members/InternalAffairs/{{col.info.picture}}"
+                    alt="{{col.info.name}}"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+            />
+          </div>
+          <div class="text-container" style="display: inline-block; text-align: left; vertical-align: top;"> <!-- Added vertical-align: top; -->
+            <h4>{{col.info.name}}</h4>
+            <p class="text-white">{{col.info.title}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script>
+  function showContent(sectionId) {
+    var sections = document.querySelectorAll('.bg-orange');
+    sections.forEach(function(section) {
+      section.style.display = 'none'; // Hide all sections
+    });
+
+    var selectedSection = document.getElementById(sectionId);
+    if (selectedSection) {
+      selectedSection.style.display = 'block'; // Display selected section
+    }
+  }
+</script>
+
+</body>
+</html>

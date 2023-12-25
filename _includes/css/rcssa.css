@@ -253,6 +253,30 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar_people {
+    background-color: #ce3c00;
+    overflow: hidden;
+}
+
+.navbar_people button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 2px solid navajowhite; /* bottom border */
+    transition: background-color 0.5s ease, color 0.5s ease, border-bottom-color 0.8s ease;
+}
+
+.navbar_people button:hover {
+    background-color: #FF7F50;
+    /* Change bottom border color on hover */
+    border-bottom-color: transparent;
+    color: whitesmoke;
+}
+
+
 @media(max-width:767px) {
     .container .title {
         position: relative;
