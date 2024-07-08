@@ -4,50 +4,55 @@
 # 主席
 - row:
     - info:
-        name: 沈可欣
+        name: 刘亦桐
         title: Undergraduate President
-        picture: "skx.jpg"
+        picture: "Elaine Liu.jpeg"
     - info:
-        name: 袁义高
+        name: 姜悦成
         title: Graduate President
-        picture: "yyg.jpg"
+        picture: "Yuecheng Jiang.jpg"
 
 # 内务
 - row:
     - info:
-        name: 王若愚
-        title: Vice President of Internal Affairs (Undergraduate)
-        picture: "yuki.jpeg"
+        name: 李梦飞扬
+        title: President of Internal Affairs (Undergraduate)
+        picture: "Jimmy Li.jpg"
     - info:
-        name: 程一容
-        title: Vice President of Internal Affairs (Graduate)
-        picture: "cyr.jpeg"
+        name: 陈星
+        title: President of Internal Affairs (Graduate)
+        picture: "Silas Chen.jpg"
 
 # 外务
 - row:
     - info:
-        name: 李世炜
-        title: Vice President of External Affairs (Undergraduate) [Graduated]
-        picture: "lsw.jpg"
+        name: 刘雨轩
+        title: President of External Affairs (Phd) 
+        picture: "Yuxuan Liu.jpg"
     - info:
-        name: 褚彦菲
-        title: Vice President of External Affairs (Undergraduate)
-        picture: "christine.jpg"
+        name: 李世炜
+        title: President of External Affairs (Phd) 
+        picture: "Francis Li.jpg"
 
 # 宣传
 - row:
     - info:
         name: 孙一琳
-        title: Vice President of Publicity (Undergraduate)
-        picture: "syl.jpg"
+        title: President of Publicity (Undergraduate)
+        picture: "Sunny.jpg"
+- row:
+    - info:
+        name: 李韬
+        title: President of Publicity (Phd)
+        picture: "Tao Li.jpg"
 
 # IT
 - row:
     - info:
-        name: 黄戈
-        title: Vice President of IT (Graduate)
-        picture: "gh.jpg"
+        name: 周闻野
+        title: President of IT (Undergraduate)
+        picture: "Tim Zhou.jpg"
     - info:
-        name: 姚佳文
-        title: Vice President of IT (Undergraduate)
-        picture: "yjw.jpeg"
+        name: 汪晶晶
+        title: President of IT (Undergraduate)
+        picture: "Alina Wang.jpg"
