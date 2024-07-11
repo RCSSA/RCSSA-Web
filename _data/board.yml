@@ -16,43 +16,43 @@
 - row:
     - info:
         name: 李梦飞扬
-        title: President of Internal Affairs (Undergraduate)
+        title: Vice President of Internal Affairs (Undergraduate)
         picture: "Jimmy Li.jpg"
     - info:
         name: 陈星
-        title: President of Internal Affairs (Graduate)
+        title: Vice President of Internal Affairs (Graduate)
         picture: "Silas Chen.jpg"
 
 # 外务
 - row:
     - info:
         name: 刘雨轩
-        title: President of External Affairs (Phd) 
+        title: Vice President of External Affairs (Phd) 
         picture: "Yuxuan Liu.jpg"
     - info:
         name: 李世炜
-        title: President of External Affairs (Phd) 
+        title: Vice President of External Affairs (Graduate) 
         picture: "Francis Li.jpg"
 
 # 宣传
 - row:
     - info:
         name: 孙一琳
-        title: President of Publicity (Undergraduate)
+        title: Vice President of Publicity (Undergraduate)
         picture: "Sunny.jpg"
 - row:
     - info:
         name: 李韬
-        title: President of Publicity (Phd)
+        title: Vice President of Publicity (Phd)
         picture: "Tao Li.jpg"
 
 # IT
 - row:
     - info:
         name: 周闻野
-        title: President of IT (Undergraduate)
+        title: Vice President of IT (Undergraduate)
         picture: "Tim Zhou.jpg"
     - info:
         name: 汪晶晶
-        title: President of IT (Undergraduate)
+        title: Vice President of IT (Undergraduate)
         picture: "Alina Wang.jpg"
