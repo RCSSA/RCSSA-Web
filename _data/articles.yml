@@ -2,24 +2,25 @@
 # the `description` field supports markdown syntax.
 # be careful to indent correctly. (\t)
 
-- title: 【招新】 | 招募英才—RCSSA招新啦！
-  thumbnail: xinsheng.jpg
-  link: https://mp.weixin.qq.com/s/no1NDiXhIXUKultUBYxjjw
-  description: |
-    好消息！RCSSA中国学生与学者联合会
-    开始招新啦！
 
-- title: 【官方】莱斯大学2023年新生见面会报名开始啦！
-  thumbnail: zhaoxin.jpg
-  link: https://mp.weixin.qq.com/s/pfdHvNyUh3d57ay2RP53-Q
-  description: |
-    2023入学的新生们
-    准备好迎接新的人生旅程了吗？
-    2023-24年的新生见面会来啦！
+- title: 【官方】RCSSA暑期招新开启！
+  thumbnail: t1.png
+  link: https://mp.weixin.qq.com/s/g78QE2b3kTaQBF7HMTVrdw
+  description: |  
+    本次RCSSA招新面向所有莱斯大学中国学生与学者。请感兴趣的小伙伴们阅读以下各个部门的职责介绍与部长简介
+    点击阅读原文或点击下方链接报名！我们期待与你相见！
 
-- title: 【官方】RCSSA 2023-2024 学年主席
-  thumbnail: logo.png
-  link: https://mp.weixin.qq.com/s/Aa8UKCPfQoyzTK87ISBZWw
+- title: 【校长来访】家长会、新生见面、校友聚会！
+  thumbnail: t2.png
+  link: https://mp.weixin.qq.com/s/4Zcnjev0LTZnXV-gCG2Jpg
   description: |
-    感谢大家对RCSSA和候选人的大力支持！
-    我们的竞选结果终于出来啦！
+    7月13日周六，第五届莱斯中国家长会将在北京举行，
+    校长夫妇将莅临现场，参与家长会和校友会活动。
+
+
+- title: 【活动回顾】RCSSA春日团建
+  thumbnail: t3.png
+  link: https://mp.weixin.qq.com/s/UF6D-Zla12GX0tDSVa_skg
+  description: |
+    在这草色清新、暖风吹拂的春分时节
+    RCSSA的小伙伴们齐聚于Brazos Bend State Park
