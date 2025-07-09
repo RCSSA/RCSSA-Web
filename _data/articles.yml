@@ -3,24 +3,23 @@
 # be careful to indent correctly. (\t)
 
 
-- title: 【官方】RCSSA暑期招新开启！
+# the `description` field supports markdown syntax.
+# be careful to indent correctly. (\t)
+
+- title: 【官方】2025 RCSSA 暑期招新开启！
   thumbnail: t1.png
-  link: https://mp.weixin.qq.com/s/g78QE2b3kTaQBF7HMTVrdw
-  description: |  
-    本次RCSSA招新面向所有莱斯大学中国学生与学者。请感兴趣的小伙伴们阅读以下各个部门的职责介绍与部长简介
-    点击阅读原文或点击下方链接报名！我们期待与你相见！
+  link: https://mp.weixin.qq.com/s/D3ILBTSYhbOXdzL-XTQZzg
+  description: |
+    本次RCSSA招新面向所有莱斯大学中国学生与学者。请感兴趣的小伙伴们阅读以下各个部门的职责介绍与部长简介，点击阅读原文或点击下方链接报名！我们期待与你相见！
 
-- title: 【校长来访】家长会、新生见面、校友聚会！
+- title: 【活动回顾】RCSSA Game Night 桌游夜
   thumbnail: t2.png
-  link: https://mp.weixin.qq.com/s/4Zcnjev0LTZnXV-gCG2Jpg
+  link: https://mp.weixin.qq.com/s/1tYmPCXYXpp2UsBUQ9FdAw
   description: |
-    7月13日周六，第五届莱斯中国家长会将在北京举行，
-    校长夫妇将莅临现场，参与家长会和校友会活动。
+    4月11日上周五晚RCSSA在Grad Bubble再次举办了桌游夜Game Night！众多桌游爱好者前来捧场，现场热闹非凡！
 
-
-- title: 【活动回顾】RCSSA春日团建
+- title: 【活动回顾】2025 RCSSA 3V3篮球赛圆满结束！
   thumbnail: t3.png
-  link: https://mp.weixin.qq.com/s/UF6D-Zla12GX0tDSVa_skg
+  link: https://mp.weixin.qq.com/s/bisMNp_d8YuFiNu2Bfo1aA
   description: |
-    在这草色清新、暖风吹拂的春分时节
-    RCSSA的小伙伴们齐聚于Brazos Bend State Park
+    2025 RCSSA 3v3 篮球赛在上周末圆满落幕！从激烈的拼抢到精妙的配合，球员们全情投入、挥洒汗水，用实力与热情点燃了整个赛场！

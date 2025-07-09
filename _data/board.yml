@@ -4,24 +4,25 @@
 # 主席
 - row:
     - info:
-        name: 刘亦桐
-        title: Undergraduate President
-        picture: "Elaine Liu.jpeg"
-    - info:
         name: 姜悦成
         title: Graduate President
         picture: "Yuecheng Jiang.jpg"
+    - info:
+        name: 孙一琳
+        title: Undergraduate President
+        picture: "Sunny.jpg"
+    
 
 # 内务
 - row:
     - info:
-        name: 李梦飞扬
+        name: 刘泊涵
         title: Vice President of Internal Affairs (Undergraduate)
-        picture: "Jimmy Li.jpg"
+        picture: "Bo Liu.jpg"
     - info:
-        name: 陈星
-        title: Vice President of Internal Affairs (Graduate)
-        picture: "Silas Chen.jpg"
+        name: 徐子厚
+        title: Vice President of Internal Affairs (Undergraduate)
+        picture: "Zihou Xu.jpg"
 
 # 外务
 - row:
@@ -30,21 +31,21 @@
         title: Vice President of External Affairs (Phd) 
         picture: "Yuxuan Liu.jpg"
     - info:
-        name: 李世炜
-        title: Vice President of External Affairs (Graduate) 
-        picture: "Francis Li.jpg"
+        name: 太馨苡
+        title: Vice President of External Affairs (Undergraduate) 
+        picture: "Cindy Tai.jpg"
 
 # 宣传
-- row:
-    - info:
-        name: 孙一琳
-        title: Vice President of Publicity (Undergraduate)
-        picture: "Sunny.jpg"
 - row:
     - info:
         name: 李韬
         title: Vice President of Publicity (Phd)
         picture: "Tao Li.jpg"
+    - info:
+        name: 薛于涵
+        title: Vice President of Publicity (Undergraduate)
+        picture: "Emily.jpeg"
+    
 
 # IT
 - row:
@@ -53,6 +54,18 @@
         title: Vice President of IT (Undergraduate)
         picture: "Tim Zhou.jpg"
     - info:
-        name: 汪晶晶
+        name: 孙怀瑾
         title: Vice President of IT (Undergraduate)
-        picture: "Alina Wang.jpg"
+        picture: "Juliet Sun.jpg"
+
+
+# 职发部
+- row:
+    - info:
+        name: 刘亦桐
+        title: Vice President of Career Development (PhD)
+        picture: "Elaine.jpg"
+    - info:
+        name: 杨闰铭
+        title: Vice President of Career Development (Undergraduate)
+        picture: "Cecilia.jpg"
