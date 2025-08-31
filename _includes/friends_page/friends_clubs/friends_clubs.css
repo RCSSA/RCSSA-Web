@@ -23,6 +23,11 @@
     content: url('../img/friends/friends-3.png');
     width: 100%;
 }
+.clubs-section .friends-card4 {
+    border-radius: 10px;
+    content: url('../img/friends/friends-4.png');
+    width: 100%;
+}
 
 .clubs-section .section2{
     padding-bottom: 15vh; 
