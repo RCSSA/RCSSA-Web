@@ -29,5 +29,33 @@
             </div>
         </div>
         {% endfor %}
+
+        <hr class="section-divider" style="margin: 50px 0;">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">媒体报道<br>Media Coverage</h2>
+                <h3 class="section-subheading text-muted">What others say about RCSSA.</h3>
+            </div>
+        </div>
+        {% for item in site.data.publicize %}
+        <div class="row">
+            <div class="container-sm card-item">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <img src="img/articles/{{ item.thumbnail }}" class="img-responsive img-centered img-border-radius" alt="">
+                    </div>
+                    <div class="col-md-8 col-sm-10">
+                        <div class="portfolio-caption">
+                            <a href="{{ item.link }}" target="_blank">
+                                <h3 class="">{{ item.title }}</h3>
+                            </a>
+                            <div class="text-muted">{{ item.description | markdownify }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </section>

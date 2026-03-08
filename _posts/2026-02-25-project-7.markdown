@@ -1,0 +1,16 @@
+---
+title: "【活动回顾】2026休斯顿高校春晚圆满举办"
+# subtitle: Website Design
+layout: post
+# modal-id: 2
+date: 2026-02-26
+img: Newyear.png
+# thumbnail: escape-thumbnail.png
+# alt: image-alt
+# project-date: April 2014
+# client: Start Bootstrap
+# category: Web Development
+description: 2月14日，RCSSA成功举办2026休斯顿高校春晚，让每个身处异乡的同学都体验到春节的欢乐气氛。
+link: https://news.rice.edu/news/2026/welcoming-year-horse-rices-chinese-new-year-gala
+
+---
