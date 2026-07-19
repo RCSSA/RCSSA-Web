@@ -6,11 +6,11 @@
     - info:
         name: 于济铭 Jiming 
         title: Graduate President
-        picture: "于济铭-JimingYu-主席.png"
+        picture: "jiming-yu-president.png"
     - info:
         name: 徐子厚 Patton
         title: Undergraduate President
-        picture: "徐子厚-PattonXu-主席.jpg"
+        picture: "patton-xu-president.jpg"
     
 
 # 内务
@@ -18,33 +18,33 @@
     - info:
         name: 蒋睿铖 Tomas
         title: Vice President of Internal Affairs (Undergraduate)
-        picture: "蒋睿铖-Tomas-内务部.jpeg"
+        picture: "ruicheng-jiang-internal.jpeg"
     - info:
         name: 高逸天 Yitian
         title: Vice President of Internal Affairs (Undergraduate)
-        picture: "高逸天-Yitian-内务部.jpg"
+        picture: "yitian-gao-internal.jpg"
 
 # 外务
 - row:
     - info:
         name: 张雪儿 Alex
         title: Vice President of External Affairs (Graduate)
-        picture: "张雪儿Alex-外务部.png"
+        picture: "xueer-zhang-external.png"
     - info:
         name: Cecilia Wang
         title: Vice President of External Affairs (Undergraduate)
-        picture: "Cecilia - 外务部.jpg"
+        picture: "cecilia-wang-external.jpg"
 
 # 宣传
 - row:
     - info:
         name: 薛于涵 Emily
         title: Vice President of Publicity (Undergraduate)
-        picture: "薛于涵-EmilyXue-宣传部.jpg"
+        picture: "emily-xue-publicity.jpg"
     - info:
         name: 于也 Sunny
         title: Vice President of Publicity (Undergraduate)
-        picture: "于也-SunnyYu-宣传部.JPG"
+        picture: "sunny-yu-publicity.JPG"
     
 
 # IT
@@ -52,11 +52,11 @@
     - info:
         name: 金亦骋 Kim
         title: Vice President of IT (Graduate)
-        picture: "金亦骋-Kim-IT部.jpeg"
+        picture: "yicheng-jin-it.jpeg"
     - info:
         name: 孙怀瑾 Juliet
         title: Vice President of IT (Undergraduate)
-        picture: "孙怀瑾-Juliet-IT部本科生部长.jpeg"
+        picture: "juliet-sun-it.jpeg"
 
 
 # 职发部
@@ -64,11 +64,11 @@
     - info:
         name: 刘亦桐 Elaine
         title: Vice President of Career Development (PhD)
-        picture: "刘亦桐-Elaine-职发部.jpg"
+        picture: "elaine-liu-career.jpg"
 
 # 财务部
 - row:
     - info:
         name: 姜悦成 Yuecheng
         title: Vice President of Finance (PhD)
-        picture: "姜悦成-YuechengJiang-财务.jpg"
+        picture: "yuecheng-jiang-finance.jpg"
