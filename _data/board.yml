@@ -4,68 +4,71 @@
 # 主席
 - row:
     - info:
-        name: 姜悦成
+        name: 于济铭 Jiming 
         title: Graduate President
-        picture: "Yuecheng Jiang.jpg"
+        picture: "于济铭-JimingYu-主席.png"
     - info:
-        name: 孙一琳
+        name: 徐子厚 Patton
         title: Undergraduate President
-        picture: "Sunny.jpg"
+        picture: "徐子厚-PattonXu-主席.jpg"
     
 
 # 内务
 - row:
     - info:
-        name: 于济铭
-        title: Vice President of Internal Affairs (Graduate)
-        picture: "Jiming Yu.jpg"
-    - info:
-        name: 徐子厚
+        name: 蒋睿铖 Tomas
         title: Vice President of Internal Affairs (Undergraduate)
-        picture: "Zihou Xu.jpg"
+        picture: "蒋睿铖-Tomas-内务部.jpeg"
+    - info:
+        name: 高逸天 Yitian
+        title: Vice President of Internal Affairs (Undergraduate)
+        picture: "高逸天-Yitian-内务部.jpg"
 
 # 外务
 - row:
     - info:
-        name: 刘雨轩
-        title: Vice President of External Affairs (Phd) 
-        picture: "Yuxuan Liu.jpg"
+        name: 张雪儿 Alex
+        title: Vice President of External Affairs (Graduate)
+        picture: "张雪儿Alex-外务部.png"
     - info:
-        name: 太馨苡
-        title: Vice President of External Affairs (Undergraduate) 
-        picture: "Cindy Tai.jpg"
+        name: Cecilia Wang
+        title: Vice President of External Affairs (Undergraduate)
+        picture: "Cecilia - 外务部.jpg"
 
 # 宣传
 - row:
     - info:
-        name: 李韬
-        title: Vice President of Publicity (Phd)
-        picture: "Tao Li.jpg"
-    - info:
-        name: 薛于涵
+        name: 薛于涵 Emily
         title: Vice President of Publicity (Undergraduate)
-        picture: "Emily.jpeg"
+        picture: "薛于涵-EmilyXue-宣传部.jpg"
+    - info:
+        name: 于也 Sunny
+        title: Vice President of Publicity (Undergraduate)
+        picture: "于也-SunnyYu-宣传部.JPG"
     
 
 # IT
 - row:
     - info:
-        name: 周闻野
-        title: Vice President of IT (Undergraduate)
-        picture: "Tim Zhou.jpg"
+        name: 金亦骋 Kim
+        title: Vice President of IT (Graduate)
+        picture: "金亦骋-Kim-IT部.jpeg"
     - info:
-        name: 孙怀瑾
+        name: 孙怀瑾 Juliet
         title: Vice President of IT (Undergraduate)
-        picture: "Juliet Sun.jpg"
+        picture: "孙怀瑾-Juliet-IT部本科生部长.jpeg"
 
 
 # 职发部
 - row:
     - info:
-        name: 刘亦桐
+        name: 刘亦桐 Elaine
         title: Vice President of Career Development (PhD)
-        picture: "Elaine.jpg"
+        picture: "刘亦桐-Elaine-职发部.jpg"
+
+# 财务部
+- row:
     - info:
-        name: 杨闰茗
-        title: Vice President of Career Development (Undergraduate)
-        picture: "Cecilia.jpg"
+        name: 姜悦成 Yuecheng
+        title: Vice President of Finance (PhD)
+        picture: "姜悦成-YuechengJiang-财务.jpg"
