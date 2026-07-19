@@ -10,12 +10,22 @@
         {% for article in site.data.articles %}
         <div class="row">
             <div class="container-sm card-item">
-                <a href="{{ article.link }}" target="_blank" style="text-decoration: none; color: inherit;">
-                    <div class="portfolio-caption">
-                        <h3 class="text-primary">{{ article.title }}</h3>
-                        <p class="text-muted">📱 点击查看微信公众号原文 →</p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <!-- <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> -->
+                            <img src="img/articles/{{ article.thumbnail }}" class="img-responsive img-centered img-border-radius" alt="">
+                        <!-- </a> -->
                     </div>
-                </a>
+                    <div class="col-md-8 col-sm-10">
+                        <div class="portfolio-caption">
+                            <a href="{{ article.link }}" target="_blank">
+                                <h3 class="">{{ article.title }}</h3>
+                            </a>
+                            <h5 class="text-muted">{{ article.description | markdownify }}</h5>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         {% endfor %}
@@ -37,7 +47,10 @@
                     </div>
                     <div class="col-md-8 col-sm-10">
                         <div class="portfolio-caption">
-                            <a href="{{ item.link }}" target="_blank"></a>
+                            <a href="{{ item.link }}" target="_blank">
+                                <h3 class="">{{ item.title }}</h3>
+                            </a>
+                            <div class="text-muted">{{ item.description | markdownify }}</div>
                         </div>
                     </div>
                 </div>

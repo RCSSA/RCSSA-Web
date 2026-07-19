@@ -1,12 +1,25 @@
-# 文章数据 - 直接链接到微信公众号
-# 只需维护标题和链接，无需制作缩略图
-# 每次从公众号复制新文章的标题和链接即可
+# This stores the projects info.
+# the `description` field supports markdown syntax.
+# be careful to indent correctly. (\t)
+
+
+# the `description` field supports markdown syntax.
+# be careful to indent correctly. (\t)
 
 - title: 【官方】2025 RCSSA 暑期招新开启！
+  thumbnail: t1.png
   link: https://mp.weixin.qq.com/s/D3ILBTSYhbOXdzL-XTQZzg
+  description: |
+    本次RCSSA招新面向所有莱斯大学中国学生与学者。请感兴趣的小伙伴们阅读以下各个部门的职责介绍与部长简介，点击阅读原文或点击下方链接报名！我们期待与你相见！
 
 - title: 【活动回顾】RCSSA Game Night 桌游夜
+  thumbnail: t2.png
   link: https://mp.weixin.qq.com/s/1tYmPCXYXpp2UsBUQ9FdAw
+  description: |
+    4月11日上周五晚RCSSA在Grad Bubble再次举办了桌游夜Game Night！众多桌游爱好者前来捧场，现场热闹非凡！
 
 - title: 【活动回顾】2025 RCSSA 3V3篮球赛圆满结束！
+  thumbnail: t3.png
   link: https://mp.weixin.qq.com/s/bisMNp_d8YuFiNu2Bfo1aA
+  description: |
+    2025 RCSSA 3v3 篮球赛在上周末圆满落幕！从激烈的拼抢到精妙的配合，球员们全情投入、挥洒汗水，用实力与热情点燃了整个赛场！
