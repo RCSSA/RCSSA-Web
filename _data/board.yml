@@ -4,10 +4,6 @@
 # 主席
 - row:
     - info:
-        name: 于济铭 Jiming 
-        title: Graduate President
-        picture: "jiming-yu-president.png"
-    - info:
         name: 徐子厚 Patton
         title: Undergraduate President
         picture: "patton-xu-president.jpg"
@@ -31,7 +27,7 @@
         title: Vice President of External Affairs (Graduate)
         picture: "xueer-zhang-external.png"
     - info:
-        name: Cecilia Wang
+        name: 王一宁 Cecilia
         title: Vice President of External Affairs (Undergraduate)
         picture: "cecilia-wang-external.jpg"
 
